@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Iceland&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Orbitron:wght@400..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+*{
+  font-family: 'Montserrat';
+}
+
+.landingPageContainer{
+  width: 100vw;
+  height: 100vh;
+}
+
+
+.landingPageContainer nav{
+  padding-inline: 1.2rem;
+  padding-block: 1.6rem;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.landingPageContainer nav h2{
+  font-size:5 rem;
+  font-weight:700;
+  letter-spacing: 1px;
+  font-family: 'Electrolize';
+  margin-left: 1rem;
+}
+
+
+.landingPageContainer nav .navList{
+  display: flex;
+  gap: 1.6rem;
+  align-items: center;
+  font-size: 1rem;
+  cursor: pointer;
+  
+}
+
+.landingPageContainer nav .navList button{
+  border-color: #646cff;
+}
+
+.landingMainContainer{
+  display: flex;
+  flex-direction: column;
+  padding-inline:3rem ;
+  height: 70vh;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.landingMainContainer .heading h2{
+  font-size: 4.5rem;
+  font-weight: 800;
+}
+
+.landingMainContainer .heading p{
+  margin-top: 1.5rem;
+  font-size: 2.5rem;
+}
+
+.hero{
+  font-size: 0.2rem !important;
+}
+
+.sync{
+  width: fit-content;
+  padding: 1rem;
+  border-radius: 20px;
+  margin-top: 1.5rem;
+  color: white;
+  font-size: 1.5rem;
+  border-color: #646cff;
+}
+
+.navBar{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-inline:20px ;
+  text-align: center;
+  
+}
+
+.meetContainer{
+  display: flex;
+  padding-inline: 20px;
+  height: 80vh;
+  gap: 10vw;
+  justify-content: center;
+}
+
+.leftPanel{
+  height:100%;
+  display: flex;
+  align-items: center;
+}
+
+.rightPanel{
+  display: flex;
+  align-items: center;
+}
+
+.rightPanel > img{
+  width: 30vw;
+  height: auto;
+}
+
+
